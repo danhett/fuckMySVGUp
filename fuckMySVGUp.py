@@ -16,8 +16,10 @@
 # Copies = how many broken versions you want to output.
 # Intensity = Can be LOW, NORMAL, HIGH, LUDICROUS, and OMG.
 
-import sys
 import os.path
+import random
+from random import randint
+import sys
 
 # Check to make sure the SVG exists
 if os.path.isfile(sys.argv[1:][0]) == True:
@@ -43,8 +45,13 @@ print("--------- FUCK MY SVG UP ---------")
 print("OK! Fucking up " + input + " " + copies + " time(s) using " + intensity + " intensity!")
 print("Fucked-up files will be written to: " + output)
 
-# Open the file as a string
+# Open the file's contents as a string
 with open(input, 'r') as myfile:
     data = myfile.read().replace('\n', '')
 
-print(data)
+# Find and replace items with wild abandon
+mashed = ''.join(i if i != '2' else str(randint(0,9)) for i in data)
+
+# Write the file
+with open(output + "/fucked.svg", "w") as text_file:
+    text_file.write(mashed)

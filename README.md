@@ -16,7 +16,15 @@ This is a quick and dirty python script that takes an SVG and smashes it up. Not
 - Enjoy!
 
 ### Output examples
-![image1](examples/glitch1.png)
+Source image:
+![original](https://raw.githubusercontent.com/danhett/fuckMySVGUp/master/examples/orig.jpg)
+
+Outputs:
+![image1](https://raw.githubusercontent.com/danhett/fuckMySVGUp/master/examples/glitch1.jpg)
+
+![image2](https://raw.githubusercontent.com/danhett/fuckMySVGUp/master/examples/glitch2.jpg)
+
+![image2](https://raw.githubusercontent.com/danhett/fuckMySVGUp/master/examples/glitch3.jpg)
 
 ### License
 Released under the DO WHAT THE FUCK YOU WANT public license (see LICENSE.md for more info).

@@ -15,5 +15,8 @@ This is a quick and dirty python script that takes an SVG and smashes it up. Not
 - I don't care.
 - Enjoy!
 
+### Output examples
+![image1](examples/glitch1.png)
+
 ### License
-Released under the DO WHAT THE FUCK YOU WANT public license (see LICENSE.md for more info). 
+Released under the DO WHAT THE FUCK YOU WANT public license (see LICENSE.md for more info).

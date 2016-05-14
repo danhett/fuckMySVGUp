@@ -49,9 +49,10 @@ print("Fucked-up files will be written to: " + output)
 with open(input, 'r') as myfile:
     data = myfile.read().replace('\n', '')
 
-# Find and replace items with wild abandon
-mashed = ''.join(i if i != '2' else str(randint(0,9)) for i in data)
+for i in range(0, int(copies)):
+    # Find and replace items with wild abandon
+    mashed = ''.join(i if i != str(randint(1,9)) else str(randint(1,9)) for i in data)
 
-# Write the file
-with open(output + "/fucked.svg", "w") as text_file:
-    text_file.write(mashed)
+    # Write the file
+    with open(output + "/fucked" + str(i) + ".svg", "w") as text_file:
+        text_file.write(mashed)

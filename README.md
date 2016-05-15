@@ -26,5 +26,13 @@ Outputs:
 
 ![image2](https://raw.githubusercontent.com/danhett/fuckMySVGUp/master/examples/glitch3.jpg)
 
+### Todo list
+Stuff that might be cool:
+- Add proper colour shifting
+- Noodle with things more intelligently to avoid unusably glitched images
+- Either ignore or reinsert headers so images actually render
+- Pop a video out with ffmpeg or something
+- Ideally stop mis-sized outputs clipping, or constrain sizes etc 
+
 ### License
 Released under the DO WHAT THE FUCK YOU WANT public license (see LICENSE.md for more info).
